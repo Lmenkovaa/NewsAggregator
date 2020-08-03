@@ -1,0 +1,93 @@
+body{
+    background-color:#000000;
+    mix-blend-mode: normal;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 80px;
+    line-height: 110px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #f0f8ff;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 80px;
+    line-height: 110px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #f0f8ff;
+}
+
+#wrapper {
+    max-width: 960px;
+    margin: auto;
+}
+
+header{
+    padding: 20px 0;
+}
+
+.polygon1 {
+    position: absolute;  
+    width: 289.51px;
+    height: 237.19px;
+    left: 53.1px;
+    top: 70px;
+    background: #9415de;
+    border-radius: 11px;
+    display:block;
+    transform: rotate(31.27deg);
+    border-top: 10px solid red;
+    z-index: 1;
+}
+.polygon2 {
+    position: absolute;
+    width: 230.53px;
+    height: 165px;
+    left: 30.64px;
+    top: 95px;
+    background: #77ff00;
+    border-radius: 11px;
+    transform: rotate(31.27deg);
+    border-top: 10px solid red;
+    z-index: 2;
+}
+.arrow1 {
+    position: absolute;
+    width: 113.99px;
+    height: 0px;
+    left: 30px;
+    top: 164.96px;
+    border: 6px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(0.61deg);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-list {
+    display: flex;
+}
+.content-list__item {
+    width: 500px;
+    height: 700px;
+    background: #F0F8FF;
+    border-radius: 50px;
+    z-index: 3;
+}
+
+.content-list__item:not(:first-of-type) {
+    margin-left: 90px;
+}
+
+.content-list__item--grey {
+    background-color: #C4C4C4;
+}
